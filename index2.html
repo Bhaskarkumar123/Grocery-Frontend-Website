@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store By Bhaskar</title>
+    <!--code for font awesom cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--code for font awesom cdn -->
+
+    <!--code for linking css file -->
+    <link rel="stylesheet" type="text/css" href="css/newfile.css">
+    <!--code for linking css file -->
+    
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        
+</head>
+<body>
+    <!--header section -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fa fa-shopping-basket" aria-hidden="true"></i>Grocery</a>
+        
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categoris">categoris</a>
+            <a href="#Review">Review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here".......>
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/melo1.jpg">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">$6.6/-</span>
+                    <span class="quentity">Qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/img2.jpg">
+                <div class="content">
+                    <h3>Salt</h3>
+                    <span class="price">$6.4/-</span>
+                    <span class="quentity">Qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/oni2.jpg">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">$6.2/-</span>
+                    <span class="quentity">Qty : 1</span>
+                </div>
+            </div>
+
+            <div class="total">total : 18.30/- </div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="#" class="login-form" onsubmit="return validateForm(event)">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box" required>
+            <input type="password" placeholder="your password" class="box" required>
+
+            <p>Formate Your password <a href="#"> Click Here</a></p>
+            <p>Don't Have An Account<a href="#"> Create Here</a></p>
+
+            <input type="submit" value="login now" class="btn">
+            <p id="message" style="color:aquamarine; margin-top: 10px;"></p>
+        </form>
+    </header>
+    <!--header section -->
+
+
+    <!--banner section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh And <span>Organic</span> vegetable</h3>
+            <p>Bena khaye raha n jaye<br>Dal Bati Churma </p>
+            
+             <a href="#" class="btn">shop now</a>
+        </div>    
+
+    </section>
+    <!--banner section -->
+
+     <!-- our feature section -->
+     <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/img4.jpg">
+                <h3> fresh and organic</h3>
+                <p>Affordable prices and regular discounts to attract customers</p>
+
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="image/img3.jpg">
+                <h3> fresh and organic</h3>
+                <p>A user-friendly website or app for convenient online ordering and delivery.</p>
+
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="image/img5.jpg">
+                <h3> fresh and organic</h3>
+                <p>An organized and easily navigable layout to enhance the shopping experience.</p>
+
+                <a href="#" class="btn">read more</a>
+            </div>
+            
+         </div>
+
+        
+    </section>
+    <!-- our product section -->
+    <section class="products" id="products">
+        <h1 class="heading"> our <span>products</span></h1>
+    
+        <div class="box-container">
+            <div class="box">
+                <img src="image/img8.jpg">
+                <h3>vegetable</h3>
+                <p>Wide variety of organic products and excellent service</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+    
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="image/img7.jpg">
+                <h3>fruit</h3>
+                <p> Consistently high-quality products and pleasant shopping</p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            
+            <div class="box">
+                <img src="image/img4.jpg">
+                <h3> Spaices</h3>
+                <p>  They carry a wide variety of organic and locally sourced products </p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="image/img2.jpg">
+                <h3> Tata Salt</h3>
+                <p>  The customer service is top-notch too </p>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+         </div>
+    
+        
+    </section>
+ <!-- our product section -->
+ 
+ <!-- categories-->
+ <section class="categoris" id="categoris">
+    <h1 class="heading"> our <span>categoris</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="image/img4.jpg">
+            <h3>Spaices</h3>
+            <p> upto 44% off</p>
+
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="image/img3.jpg">
+            <h3>Rock salt</h3>
+            <p> upto 50% off</p>
+
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        
+        <div class="box">
+            <img src="image/img5.jpg">
+            <h3> Vegetable</h3>
+            <p>  upto 33% off</p>
+
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="image/img2.jpg">
+            <h3> Tata Salt</h3>
+            <p>  upto 60% off</p>
+
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+     </div>
+
+    
+</section>
+
+ <!-- categories-->
+
+<!-- review section -->
+<section class="Review" id="Review">
+    <h1 class="heading"> Customer's <span>Review</span></h1>
+
+    <div class=" swiper review-slider">
+        <div class="slider box">
+            <img src="image/img18.jpg">
+            <p> Wide variety of organic products and excellent service.<br>Consistently high-quality products and pleasant shopping. </p>
+            <h3>alica</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+
+            
+        </div>
+        <div class="swiper-slider box">
+            <img src="image/img14.jpg">
+            <p> This place is a gem!<br> They carry a wide variety of organic and locally sourced products.<br> The customer service is top-notch too </p>
+            <h3> akera</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            
+        </div>
+        
+        <div class="swiper-slider box">
+            <img src="image/img15.jpg">
+            <p> A wonderful shopping experience every time.<br> The staff is knowledgeable and always willing to assist.<br> Plus, their loyalty program offers great rewards.  </p>
+            <h3>aiko</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- review section -->
+
+
+<!-- Blogs section -->
+<section class="blogs" id="blogs">
+    <h1 class="heading"> Our <span>Blogs</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="image/img11.jpg">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i> bhaskar jha</a>
+                    <a href="#"><i class="fa fa-calandar"></i> 1st jan 2025</a>
+                </div>
+                <h3>fresh and organic fruit and vegetable</h3>
+                <p>Knowledgeable staff and great loyalty program</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/img6.jpg">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i> bhaskar jha</a>
+                    <a href="#"><i class="fa fa-calandar"></i> 23rd feb 2025</a>
+                </div>
+                <h3>fresh and organic fruit and vegetable</h3>
+                <p>Clean, well-organized, and affordable prices</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/img5.jpg">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i> bhaskar jha</a>
+                    <a href="#"><i class="fa fa-calandar"></i> 2nd mar 2025</a>
+                </div>
+                <h3>fresh and organic fruit and vegetable</h3>
+                <p>Great selection of fresh produce and helpful staff</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+
+   
+</section>
+<!-- Blogs section -->
+
+<!-- Footer section -->
+ <section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h1>Groco <i class="fa fa-shopping-basket"></i></h1>
+            <p>A user-friendly website or app for convenient online ordering and delivery</p>
+
+            <div class="share">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h1>Contact Info </h1>
+            <a href="#" class="links"> <i class="fa fa-phone"></i> +91 5254669866</a>
+            <a href="#" class="links"> <i class="fa fa-phone"></i> +91 5254669866</a>
+            <a href="#" class="links"> <i class="fa fa-envelope"></i> bkjha@434.com</a>
+            <a href="#" class="links"> <i class="fa fa-map-marker"></i> jodhpur raj.. India</a>
+        </div>
+        <div class="box">
+            <h1> Quick Link </h1>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Home</a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Features</a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> products</a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> categories</a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Review</a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Bloges</a>
+        </div>
+        <div class="box">
+            <h1> NewsLetter </h1>
+            <p>Subscribe For New Update</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="=submit" value="Subscribe" class="btn">
+        </div>
+
+
+    </div>
+
+    <div class="Credit">Created By <span>Bhaskar jha</span> | All Right Reserved</div>
+
+
+
+ </section>
+ <!-- Footer section -->
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="js/new.js"></script>
+
+</body>
+</html>
