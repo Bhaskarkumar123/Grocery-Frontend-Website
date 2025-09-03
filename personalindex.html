@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA_Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pertsonal Portfolio Website</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/e52a26abd1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="css/image12345.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="fa fa-times" onclick="closemenu()"></i>    
+                    </ul>
+                        <i class="fa fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p></p>
+                    <h1>Hi, I am <span>Bhaskar</span><br> jha From india</h1>
+                </div>
+            </div>
+        </div>
+        <!------------------About--------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                       <img src="image/image7894.jpg">  
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                         First of all, thanku for give me this oppertunity to introduce mySelf.
+                         My name is Bhaskar kumar. I am from bihar and cruntly live in jodhpur (raj.).
+                         My father name is ............
+                         I parsuing my B-tech in computer science in Jodhpur institute of Engineering collage (jodhpur raj..).
+                         I enjoy studying coading amd how they work.Outside the collage,I like to spend my time in coading and 
+                         playing cricket.I am looking forward to making new friend in this collage/class and learning with everyone.  
+                         thanku.....
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('expreance')">Expreance</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>HTML,CSS,JvaScript,Python,java,c</li>
+                                <li><span>Software Desginer</span><br>Desgine a Software</li>
+                                <li><span>Data Science and Power Bi</span><br> Python,oops,NumPy ,Pandas</li>
+                            </ul>
+                        </div>
+                         <div class="tab-contents" id="expreance">
+                            <ul>
+                                <li><span>Web Developer</span><br>Freshers</li>
+                                <li><span>Software Desginer</span><br>Freshers</li>
+                                <li><span>Data Science</span><br>50 days in TechNex</li>
+                            </ul>
+                        </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - Now..</span><br>B-Tech (Computer science)</li>
+                                <li><span>2021 - 2023 (12th)</span><br> SRLK Collage,Sitamarhi under (Bihar University)</li>
+                                <li><span>2020 - 2021 (10th)</span><br>R.O.S Public School,Sitamarhi under (CBSE)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------Service--------------->
+        <div id="services">
+            <div class="container">
+               <h1 class="sub-title"> My Services</h1>
+               <div class="services-list">
+                  <div>
+                    <i class="fas fa-code"></i> 
+                    <h2>Web Developer</h2>
+                    <p>Front-End Develop :- HTML,CSS,JvaScript,<br>NumPy,Pandas
+                    <br> Back-End Developer :- Java,Python,c and FrameWork</p>
+                    <a href="#">Learn more</a>
+                  </div>
+                   <div>
+                     <i class="fas fa-crop-alt"></i> 
+                    <h2>Software Desginer</h2>
+                    <p>
+                         Iterative Desginer.<br>
+                         Tools :- Visual Stdio Code, Integrated Development Enviroment.
+                    </p>
+                    <a href="#">Learn more</a>
+                  </div>
+                   <div>
+                    <i class="fas fa-app-store"></i>  
+                    <h2> Data Science</h2>
+                    <p>
+                        The data science process and Machine learning.
+                        Language ;- Python,oops.<br>
+                        Visualization :- Pandas,NumPy,Matplotlib.
+                    </p>
+                    <a href="#">Learn more</a>
+                  </div>
+               </div> 
+            </div>
+        </div>
+        <!---------------Portfolio------------->
+        <div id="Portfolio">
+            <div class="container">
+               <h1 class="sub-title"> My Work</h1>
+               <div class="work-list">
+                <div class="work">
+                    <img src="image/images.jpg">
+                    <div class="layer">
+                        <h3>Software Desginer</h3>
+                        <p>More Than Just a Job,a craft of Contineous creation<br>The Local Innovator With Global Reach</p>
+                        <a href="#"><i class="fa fa-external-link-alt"></i></a>
+                    </div> 
+                </div>
+                <div class="work">
+                    <img src="image/images (1).jpg">
+                    <div class="layer">
+                        <h3>Web Developer</h3>
+                        <p>The Performance Whisperer in a Mobile-First World<br>The Integration of Diverse BAckend System</p>
+                        <a href="#"><i class="fa fa-external-link-alt"></i></a>
+                    </div> 
+                </div>
+                <div class="work">
+                    <img src="image/img1111.jpg"> 
+                    <div class="layer">
+                        <h3>Data science</h3>
+                        <p>The Storytellar with Data as Their Narrative<br>The Local problem Solver with Global Tools</p>
+                        <a href="#"><i class="fa fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+               </div> 
+               <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!---------------Contact------------->
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                      <h1 class="sub-title"> Contact Me</h1>
+                      <p><i class="fa fa-paper-plane"></i>bhaskarkumar@gmail.com</p>
+                      <p><i class="fa-solid fa-phone-volume"></i>1236547892</p>
+                      <div class="social-icons">
+                         <a href="https://facebook.com/"><i class="fa fa-facebook"></i></a>
+                         <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                         <a href="https://instagram.com/"><i class="fa fa-instagram"></i></a>
+                         <a href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                      <a href="image/img222.jpg" download class="btn btn2">Download Cv</a>   
+                         
+                         
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="bhaskar">
+                <p>Made by Bhaskar <i class="fa fa-hert"></i>jha</p>
+            </div>
+        </div>
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                  for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu()
+            {
+                sidemenu.style.right = "0";
+            }
+             function closemenu()
+            {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
